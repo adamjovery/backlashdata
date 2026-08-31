@@ -1,0 +1,24 @@
+***************************************************************************************
+***************************************************************************************
+Dataset sources:
+World Bank, Databank. (2026). World Development Indicators. URL: https://databank.worldbank.org/source/world-development-indicators. Date Accessed: 22/08/26
+***************************************************************************************
+***************************************************************************************
+"Analysis_Dataset_District_Level.dta": Stanig, P. & Colantone, I. (2018) Replication Data for: The Trade Origins of Economic Nationalism: Import Competition and Voting Behavior in Western Europe. doi:10.7910/DVN/NRAQRH.
+***************************************************************************************
+***************************************************************************************
+KOF financial globalisation index: https://kof.ethz.ch/en/forecasts-and-indicators/indicators/kof-globalisation-index.html
+Dreher, A. (2006). Does globalization affect growth? Evidence from a new index of globalization. Applied Economics, 38(10), 1091–1110.
+Gygli, S., Haelg, F., Potrafke, N., & Sturm, J.-E. (2019). The KOF Globalisation Index - Revisited. In Review of International Organizations (No. 3; Vol. 14, pp. 543–574). https://doi.org/10.1007/s11558-019-09344-2
+***************************************************************************************
+***************************************************************************************
+"API-2024.xlsx": Timbro. (2024). Authoritarian Populism Index. Timbro, Available at: https://populismindex.com/report/ [Accessed 19 Aug. 2026].
+***************************************************************************************
+***************************************************************************************
+Eurostat sources for social protection and immigration:
+Eurostat. (2005). European social statistics: Social protection Expenditure and receipts Data 1994-2002. [online] Available at: https://ec.europa.eu/eurostat/documents/3217494/5665635/KS-DC-05-001-EN.PDF.pdf/26e603c2-daca-4e45-885f-4ed3a37b07cb?t=1414772379000 [Accessed 19 Aug. 2026].
+Eurostat. (2008). European social statistics: Social protection Expenditure and receipts Data 1997-2005 [online] Available at: https://ec.europa.eu/eurostat/documents/3217494/5690468/KS-DC-08-001-EN.PDF.pdf/f491e7bf-596e-4e86-8e3b-f9323e1263cd?t=1414773288000 [Accessed 19 Aug. 2026].
+Eurostat, Data Browser. (2026a). https://doi.org/10.2908/TPS00176. [online] Available at: https://ec.europa.eu/eurostat/databrowser/view/tps00176/default/table?lang=en&category=t_migr.t_migr_cit.t_migr_immi [Accessed 21 Aug. 2026].
+Eurostat, Data Browser. (2026b) https://doi.org/10.2908/TPS00100 [online] Available at: https://ec.europa.eu/eurostat/databrowser/view/tps00100/default/table?lang=en&category=t_spr [Accessed 21 Aug. 2026].
+***************************************************************************************
+***************************************************************************************
