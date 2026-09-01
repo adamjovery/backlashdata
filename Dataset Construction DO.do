@@ -771,25 +771,6 @@ drop if (OldSocPerGdp == "…") & (OldSocPerCap == "…" ) & (OldSocPerCap1995 =
 save "C:\Users\adamj\Documents\UCL Diss\OldSocProc.dta"
 clear
 
-*Constructing Immigration dataset from 1988 to 2007
-import excel "C:\Users\adamj\Documents\UCL Diss\oldimmigration.xlsx", sheet("Data") firstrow
-gen id = _n
-order id
-reshape long YR , i(id) j(year)
-replace YR = "." if YR == ".."
-destring, replace
-rename YR NetMigration
-rename CountryName country
-rename CountryCode countrycode
-drop SeriesCode
-drop SeriesName
-drop id
-
-do "C:\Users\adamj\Documents\UCL Diss\Dataset COW codes Do.do"
-do "C:\Users\adamj\Documents\UCL Diss\DatasetOlder Pruning Do.do"
-save "C:\Users\adamj\Documents\UCL Diss\OldNetMigration.dta"
-clear
-
 *Cleaning replication dataset from Colantone and Stanig
 use "C:\Users\adamj\Documents\UCL Diss\Analysis_Dataset_District_Level.dta"
 do "C:\Users\adamj\Documents\UCL Diss\Dataset COW codes Do.do"
@@ -799,13 +780,3 @@ drop if (OldSocPerGdp == "") & (OldSocPerCap == "" ) & (OldSocPerCap1995 == "")
 merge m:1 cowcode year using "C:\Users\adamj\Documents\UCL Diss\OldNetMigration.dta"
 save "C:\Users\adamj\Documents\UCL Diss\ModifiedReplication.dta"
 clear
-
-*Cleaning replication dataset from Colantone and Stanig with mig
-*use "C:\Users\adamj\Documents\UCL Diss\Analysis_Dataset_District_Level.dta"
-*do "C:\Users\adamj\Documents\UCL Diss\Dataset COW codes Do.do"
-
-*merge m:1 cowcode year using "C:\Users\adamj\Documents\UCL Diss\OldSocProc.dta", nogenerate
-*drop if (OldSocPerGdp == "") & (OldSocPerCap == "" ) & (OldSocPerCap1995 == "")
-*merge m:1 cowcode year using "C:\Users\adamj\Documents\UCL Diss\OldNetMigration.dta"
-*save "C:\Users\adamj\Documents\UCL Diss\ModifiedReplicationwithmig.dta"
-*clear
